@@ -8,18 +8,12 @@ public class Defect {
     private String criticality;
     private int countDay;
 
-
-
-
     public Defect(String summary, String criticality, int countDay) {
         this.summary = summary;
         this.criticality = criticality;
         this.countDay = countDay;
         idDefect = numberDefects++;
     }
-
-
-
 
     public int getNumberDefect() {
         return idDefect;
